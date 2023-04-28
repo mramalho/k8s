@@ -10,6 +10,9 @@ Helm   [https://helm.sh/docs/intro/install]
 Para inicialiazar o cluster, use o comando abaixo
 
 kind create cluster --name "nome_cluster" -- config cluster.yaml
+* Caso seja omitido o parametro --config, sera criado um cluster utilizando a ultima versão estável do kubernetes
+* Para utilizar versões específicas de imagens do kubernetes, acesse o link \
+[https://github.com/kubernetes-sigs/kind/releases]
 
 Será criado um cluster com 4 nodes, sendo um Control Plane e três works
 
