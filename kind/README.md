@@ -12,7 +12,10 @@ Criar um cluster para estudos de Kuberntes através do Kind
 # Começando
 Para inicialiazar o cluster, use o comando abaixo
 
+```bash
 kind create cluster --name "nome_cluster" -- config cluster.yaml
+```
+
 Será criado um cluster com 4 nodes, sendo um Control Plane e três works
 * Caso seja omitido o parâmetro --config, será criado um cluster utilizando a última versão estável do kubernetes
 * Para utilizar versões específicas de imagens do kubernetes, acesse o link \
