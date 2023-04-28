@@ -2,8 +2,9 @@
 Criar um cluster para estudos de Kuberntes através do Kind
 
 # Pré-requisítos
-Docker
-Helm
+Docker [https://docs.docker.com/get-docker]
+Kind   [https://kind.sigs.k8s.io/docs/user/quick-start/#installation]
+Helm   [https://helm.sh/docs/intro/install]
 
 # Começando
 Para inicialiazar o cluster, use o comando abaixo
